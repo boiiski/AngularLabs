@@ -1,0 +1,17 @@
+let customer = {"customer": [
+    {
+        username: "Jack",
+        pwd: "123",
+        valid: false,
+    },
+    {
+        username: "Johnny",
+        pwd: "123",
+        valid: false,
+    },
+    {
+        username: "Vincent",
+        pwd: "123",
+        valid: false,
+    }
+  ]};

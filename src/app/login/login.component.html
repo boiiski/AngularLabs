@@ -1,0 +1,12 @@
+<div>
+    <h1>Login Page</h1>
+<form id='loginform'>
+    <label for="username">Username</label><br>
+    <input type="text" [(ngModel)]="username" name="username"> <br>
+    <label for="pwd">Password</label><br>
+    <input type="password" [(ngModel)]="pwd" name="pwd">
+    <br> <button type="submit" (click)="itemClicked()">Submit</button>
+</form>
+<div id="errormsg" class="hidemessage">Credential Does No Exist In The System</div>
+<div id="postResultDiv"></div>
+</div>
